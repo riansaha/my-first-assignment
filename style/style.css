@@ -1,0 +1,293 @@
+body{
+  margin: 0px;
+  background-color: bisque;
+  font-family: sans-serif;
+  
+}
+.banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px;
+  
+
+}
+.tagline{
+  font-weight: bolder;
+  color: brown;
+  font-size: 20px;
+}
+.title{
+  font-weight: 900px;
+  font-size: 40px;
+  color: black;
+  line-height: 60px;
+}
+.explore-button{
+  margin-top: 20px;
+  font-size: 25px;
+  border-radius: 10px;
+  background-color: grey;
+  color: aliceblue;
+  cursor: pointer;
+  padding: 15px 20px;
+}
+.img{
+  width:auto ;
+  height: auto;
+}
+.pillar-section{
+  background-color: aliceblue;
+  padding: 60px 70px;
+  text-align: center;
+}
+.pillar-section h2{
+  font-weight: bolder;
+  font-size: 32px;
+  margin-bottom: 100px;
+}
+.pillar-container{
+  display: flex;
+  gap: 25px;
+  justify-content:center;
+}
+.container-one{
+  background-color: white;
+  border-radius: 20px;
+  padding: 25px;
+  cursor: progress;
+  box-shadow: 5px 8px red;
+  
+}
+.container-one img{
+  margin-top: 20px;
+  height: auto;
+}
+.container-one h3{
+  font-size: 22px;
+  background-color:green;
+  color: whitesmoke;
+}
+.container-one p{
+  font-size: 15px;
+  line-height: 22px;
+}
+.vision {
+  background-color: azure;
+  padding: 30px 50px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.future {
+  font-weight: bolder;
+  font-size: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.container{
+  display: flex;
+  text-align:space-between;
+  gap: 30px;
+  margin-top: 50px;
+  
+  
+}
+.card{
+  background-color:lightgreen;
+  border-radius: 28px;
+  padding: 20px 30px;
+}
+.card{
+  margin-top: 20px;
+  height:auto;
+}
+.card{
+  font-weight: bolder;
+  font-size: 20px;
+  color:brown;
+}
+.card{
+  font-size: 18px;
+  color:coral ;
+  line-height: 32px;
+}
+#three{
+  background-color: aquamarine;
+}
+#two{
+  background-color: darkcyan;
+}
+.butt{
+  font-size: 28px;
+  margin-top:28px;
+  border-radius: 10px;
+  padding: 15px 20px;
+  color: whitesmoke;
+  cursor: pointer;
+  box-shadow: 4px 8px;
+}
+#a{
+  background-color:blue;
+}
+#b{
+  background-color: yellow;
+  color: black;
+}
+#c{
+  background-color: darkorchid;
+}
+
+.yunus{
+  
+  background-color: white;
+  background-repeat: no-repeat;
+  margin: 0px;
+  
+  
+}
+.biograph{
+  padding: 20px 25px;
+  font-family: sans-serif;
+  width: auto;
+  height: auto;
+}
+.icon{
+  width: 2%;
+  margin-top: 10px;
+  
+}
+.biograph p{
+  font-size: 22px;
+  line-height: 40px;
+}
+.biograph h3{
+  font-weight: bolder;
+  font-size: 30px;
+}
+.cheif{
+  font-style: italic;    
+}
+.matters{
+  margin: 0px;
+  background-color:lightcyan;
+  font-family: sans-serif;  
+  padding: 40px 40px; 
+}
+.question{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 25px; 
+}
+.select{
+  font-size: 22px;
+  margin-top: 1px;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  background-color: brown;
+  color: white;
+  border-radius: 20px;
+  
+}
+
+
+
+
+
+
+
+.recent-news {
+  padding: 40px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.news-item {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.news-item img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.news-content {
+  padding: 20px;
+}
+
+.news-item.left img {
+  order: 0;
+}
+.news-item.left .news-content {
+  order: 1;
+}
+
+.news-item.right img {
+  order: 1;
+}
+.news-item.right .news-content {
+  order: 0;
+}
+
+button {
+  background-color: #1c9c5f;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+.donate {
+  background-color: #f9f9f9;
+  padding: 40px;
+  text-align: center;
+}
+
+.donate-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.donate-buttons button {
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.donate-buttons .active {
+  background-color: #b6e2d8;
+  font-weight: bold;
+}
+
+.donate input[type="text"] {
+  padding: 10px;
+  width: 250px;
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.done-btn {
+  background-color: #11623d;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+}
