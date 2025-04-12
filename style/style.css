@@ -1,202 +1,130 @@
-body{
-  margin: 0px;
-  background-color: bisque;
-  font-family: sans-serif;
-  
-}
 .banner{
+  margin: 0px;
+  background-color:goldenrod;
+  padding: 35px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 70px;
-  
-
+  font-family: sans-serif;
 }
-.tagline{
-  font-weight: bolder;
-  color: brown;
-  font-size: 20px;
-}
-.title{
-  font-weight: 900px;
-  font-size: 40px;
-  color: black;
-  line-height: 60px;
-}
-.explore-button{
-  margin-top: 20px;
+.banner-content p{
   font-size: 25px;
-  border-radius: 10px;
-  background-color: grey;
-  color: aliceblue;
-  cursor: pointer;
-  padding: 15px 20px;
+  color: whitesmoke;
 }
-.img{
-  width:auto ;
-  height: auto;
+.banner-content h1{
+  font-size: 40px;
+  line-height: 55px;
+  color:black;
 }
-.pillar-section{
-  background-color: aliceblue;
-  padding: 60px 70px;
-  text-align: center;
+.banner-content button{
+  font-size: 30px;
+  padding: 10px 15px;
+  box-shadow: 10px 15px green;
+  cursor: progress;
+  background-color: black;
+  color: whitesmoke;
 }
-.pillar-section h2{
-  font-weight: bolder;
-  font-size: 32px;
-  margin-bottom: 100px;
+.pillar{
+  background-color: cornsilk;
+  padding: 20px 25px;
 }
-.pillar-container{
+.card-container{
   display: flex;
-  gap: 25px;
-  justify-content:center;
+  gap: 28px;
+  
 }
-.container-one{
-  background-color: white;
+.card-box{
+  background-color: brown;
+  margin-top: 25px;
+  border-radius: 20px 25px;
+  color: whitesmoke;
+  font-size: 25px;
+  padding: 25px;
+}
+.vision{
+  margin: 0px;
+  padding: 25px 28px;
+  background-color: beige;
+}
+.future{
+  display: flex;
+  padding: 25px;
+  margin-top: 20px;
+  gap: 30px;
+}
+.card {
   border-radius: 20px;
   padding: 25px;
-  cursor: progress;
-  box-shadow: 5px 8px red;
-  
 }
-.container-one img{
-  margin-top: 20px;
-  height: auto;
+#one {
+  background-color: chartreuse; 
 }
-.container-one h3{
-  font-size: 22px;
-  background-color:green;
-  color: whitesmoke;
-}
-.container-one p{
-  font-size: 15px;
-  line-height: 22px;
-}
-.vision {
-  background-color: azure;
-  padding: 30px 50px;
-  font-family: sans-serif;
-  text-align: center;
-}
-
-.future {
-  font-weight: bolder;
-  font-size: 25px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-}
-
-.container{
-  display: flex;
-  text-align:space-between;
-  gap: 30px;
-  margin-top: 50px;
-  
-  
-}
-.card{
-  background-color:lightgreen;
-  border-radius: 28px;
-  padding: 20px 30px;
-}
-.card{
-  margin-top: 20px;
-  height:auto;
-}
-.card{
-  font-weight: bolder;
-  font-size: 20px;
-  color:brown;
-}
-.card{
-  font-size: 18px;
-  color:coral ;
-  line-height: 32px;
+#two {
+  background-color: yellow;
 }
 #three{
-  background-color: aquamarine;
+  background-color: yellowgreen; 
 }
-#two{
-  background-color: darkcyan;
-}
-.butt{
-  font-size: 28px;
-  margin-top:28px;
-  border-radius: 10px;
-  padding: 15px 20px;
-  color: whitesmoke;
-  cursor: pointer;
-  box-shadow: 4px 8px;
+#c {
+  background-color: yellow;
+  font-size: 20px;
+  padding: 8px 10px;
+  cursor: move;
+  color:black;
 }
 #a{
-  background-color:blue;
+  background-color: yellowgreen;
+  font-size: 20px;
+  padding: 8px 10px;
+  cursor: move;
+  color:black;
 }
 #b{
-  background-color: yellow;
-  color: black;
-}
-#c{
-  background-color: darkorchid;
-}
+  background-color:brown;
+  font-size: 20px;
+  padding: 8px 10px;
+  cursor: move;
+  color:black;
+  color: whitesmoke;
 
+}
 .yunus{
   
-  background-color: white;
-  background-repeat: no-repeat;
-  margin: 0px;
-  
-  
 }
-.biograph{
-  padding: 20px 25px;
-  font-family: sans-serif;
-  width: auto;
-  height: auto;
-}
-.icon{
-  width: 2%;
-  margin-top: 10px;
+.grammen img{
+  width: 20px;
+  margin-top: 20px;
   
 }
-.biograph p{
-  font-size: 22px;
-  line-height: 40px;
-}
-.biograph h3{
+.grammen h4{
+  font-size: 28px;
   font-weight: bolder;
-  font-size: 30px;
 }
-.cheif{
-  font-style: italic;    
+.grammen p{
+  font-style:italic ;
 }
-.matters{
-  margin: 0px;
-  background-color:lightcyan;
-  font-family: sans-serif;  
-  padding: 40px 40px; 
+.matter{
+  background-color:lightseagreen;
+  color: whitesmoke;
+  padding-left: 45px;
+  padding-top: 40px;
 }
-.question{
-  margin-top: 25px;
-  margin-bottom: 25px;
-  font-size: 25px; 
+.matter h1{
+  margin-top: 20px;
+  color: brown;
+  font-size: 32px;
+
+}
+.ques p{
+  font-size: 28px;
 }
 .select{
-  font-size: 22px;
-  margin-top: 1px;
-  margin-bottom: 10px;
+  font-size: 26px;
+  background-color: chartreuse;
   padding: 10px 15px;
-  background-color: brown;
-  color: white;
-  border-radius: 20px;
-  
+  border-radius: 20px 25px;
+  box-shadow: 10px 15px whitesmoke;
 }
-
-
-
-
-
-
-
 .recent-news {
   padding: 40px;
   max-width: 1000px;
@@ -247,47 +175,42 @@ button {
 }
 
 
-.donate {
-  background-color: #f9f9f9;
-  padding: 40px;
-  text-align: center;
+.news-section{
+  padding: 28px 30px;
+  margin: 0px;
+  height:auto;
+  width: auto;
 }
+.news-section h3 {
+  font-size:35px;
+}
+.news-section p{
+  margin-bottom: 20px;
 
-.donate-buttons {
+}
+.news-item-left{
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 15px;
-  margin: 20px 0;
+  align-items: center;
+  margin: 30px;
+  padding: 15px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  box-shadow :  10px 15px brown;
+  margin-top: 75px;
+  
 }
-
-.donate-buttons button {
-  padding: 12px 24px;
-  font-size: 16px;
-  border: none;
-  border-radius: 10px;
-  background-color: #f1f1f1;
-  cursor: pointer;
+.news-item-left img{
+  width: auto;
+  height: auto;
+  border-radius: 24px;
 }
-
-.donate-buttons .active {
-  background-color: #b6e2d8;
-  font-weight: bold;
+.news-content{
+  padding: 20px;
+  line-height: 30px;
 }
-
-.donate input[type="text"] {
-  padding: 10px;
-  width: 250px;
-  margin-top: 15px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
+#left{
+  order: 1;
 }
-
-.done-btn {
-  background-color: #11623d;
-  color: white;
-  padding: 10px 20px;
-  margin-top: 15px;
-  border: none;
-  border-radius: 8px;
+#soja{
+  order: 1;
 }
